@@ -37,7 +37,7 @@
     width: floor($li_width / $cols)
 
 // Creates EM based on pixel/context input
-=em($target-px, $context)
+@function em($target-px, $context)
   @return $target-px / $context * 1em
 
 // Retina images. Use after setting standard resolution image.
