@@ -5,7 +5,7 @@
 // once you run Grunt. Anything added to the _mixins folder will be
 // brought in.
 //
-//
+// - GABE
 =center-div($width: 600px, $padding: 20px)
   padding-left: calc(50% - #{$width}/2)
   padding-right: calc(50% - #{$width}/2)
@@ -51,6 +51,12 @@
     content: ""
     display: inline-block
     width: 100%
+=link-color($default: "blue", $hover: "red", $visited: "purple")
+  color: $default
+  &:hover
+    color: $hover
+  &:visited
+    color: $purple
 =positions($top: 0, $right: 0, $bottom: 0, $left: 0)
   top: $top
   right: $right
