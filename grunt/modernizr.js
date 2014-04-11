@@ -1,5 +1,4 @@
 module.exports = {
-
     dist: {
         // [REQUIRED] Path to the build you're using for development.
         "devFile" : "public/js/vendor/modernizr-2.6.2.min.js",
@@ -41,7 +40,7 @@ module.exports = {
         // When parseFiles = true, this task will crawl all *.js, *.css, *.scss files, except files that are in node_modules/.
         // You can override this by defining a "files" array below.
         "files" : {
-            "src": ['public/css/global.css', 'public/js/main.js']
+            "src": ['public/css/global.css', 'assets/js/main.js']
         },
 
         // When parseFiles = true, matchCommunityTests = true will attempt to

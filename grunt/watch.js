@@ -9,7 +9,7 @@ module.exports = {
     },
     haml: {
         files: ['assets/*.haml', 'assets/**/*.haml'],
-        tasks: ['haml', 'modernizr', 'htmlmin'],
+        tasks: ['haml', 'htmlmin'],
         options: {
             spawn: false,
             livereload: true,
@@ -17,7 +17,7 @@ module.exports = {
     },
     css: {
         files: ['assets/sass/*.{sass,scss}', 'assets/sass/**/*.{sass,scss}'],
-        tasks: ['sass', 'autoprefixer'],
+        tasks: ['concat', 'sass', 'autoprefixer'],
         options: {
             spawn: false,
             livereload: true,
@@ -25,7 +25,7 @@ module.exports = {
     },
     scripts: {
         files: ['assets/js/*.js'],
-        tasks: ['modernizr', 'concat', 'uglify'],
+        tasks: ['concat', 'uglify'],
         options: {
             spawn: false,
             livereload: true,

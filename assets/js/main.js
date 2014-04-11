@@ -1,0 +1,4 @@
+$(function() {
+// DOM is ready
+
+});
