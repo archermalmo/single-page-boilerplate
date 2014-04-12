@@ -1,4 +1,1 @@
-$(function() {
-// DOM is ready
-
-});
+$(function(){});
