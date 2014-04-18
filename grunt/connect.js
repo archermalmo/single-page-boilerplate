@@ -1,7 +1,7 @@
 module.exports = {
     server: {
         options: {
-            hostname: 'gabepro.local',
+            hostname: 'localhost',
             port: 9008,
             base: 'public/',
             keepalive: false,

@@ -12,10 +12,16 @@
   @media screen and (max-width: $width)
     padding-left: $padding
     padding-right: $padding
-// Removes bullets and padding from UL or OL tags.
-=striplist
-  padding: 0
-  list-style: none
+// Cross browser clearfix.
+=clearfix
+  &
+    *zoom: 1
+  &:before,
+  &:after
+    content: ""
+    display: table
+  &:after
+    clear: both
 // Creates EM based on pixel/context input
 @function em($target-px, $context)
   @return $target-px / $context * 1em
