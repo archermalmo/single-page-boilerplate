@@ -1,0 +1,1659 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+
+  
+    
+      
+      
+    
+  
+
+
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8" />
+
+<title>SassDoc - v0.1.0</title>
+<link rel="stylesheet" href="assets/css/main.css" />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width">
+<meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible">
+
+<!-- Thanks to Sass-lang.com for the icons -->
+<link href="http://sass-lang.com/assets/img/ico/apple-touch-icon-144x144-precomposed-e674ce95.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+<link href="http://sass-lang.com/assets/img/ico/apple-touch-icon-114x114-precomposed-19f81edf.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+<link href="http://sass-lang.com/assets/img/ico/apple-touch-icon-72x72-precomposed-363e5ff9.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+<link href="http://sass-lang.com/assets/img/ico/apple-touch-icon-57x57-precomposed-f3752e86.png" rel="apple-touch-icon-precomposed">
+<link href="http://sass-lang.com/assets/img/ico/favicon-0ccd2d9d.png" rel="shortcut icon">
+
+</head>
+<body>
+
+  
+  <aside class="sidebar" role="nav">
+    
+  <div class="sidebar__header">
+  <h1 class="sidebar__title">
+    
+      SassDoc
+    
+  </h1>
+</div>
+
+<div class="sidebar__body">
+  <ul class="list-unstyled">
+  
+  
+
+    
+    
+
+      
+      
+
+      
+      
+
+        <li class="sidebar__sub-heading"><a class="sidebar__link" href="#mixin">Mixins</a></li>
+
+        
+        
+
+          
+          <li class="sidebar__item  js-sassdoc__item" data-name="center-div" data-type="mixin">
+            <a class="sidebar__link" href="#mixin-center-div">center-div
+            
+            
+            </a>
+          </li>
+
+        
+
+          
+          <li class="sidebar__item  js-sassdoc__item" data-name="clearfix" data-type="mixin">
+            <a class="sidebar__link" href="#mixin-clearfix">clearfix
+            
+            
+            </a>
+          </li>
+
+        
+
+          
+          <li class="sidebar__item  js-sassdoc__item" data-name="hide-text" data-type="mixin">
+            <a class="sidebar__link" href="#mixin-hide-text">hide-text
+            
+            
+            </a>
+          </li>
+
+        
+
+          
+          <li class="sidebar__item  js-sassdoc__item" data-name="image-2x" data-type="mixin">
+            <a class="sidebar__link" href="#mixin-image-2x">image-2x
+            
+            
+            </a>
+          </li>
+
+        
+
+          
+          <li class="sidebar__item  js-sassdoc__item" data-name="justifygrid" data-type="mixin">
+            <a class="sidebar__link" href="#mixin-justifygrid">justifygrid
+            
+            
+            </a>
+          </li>
+
+        
+
+          
+          <li class="sidebar__item  js-sassdoc__item" data-name="link-color" data-type="mixin">
+            <a class="sidebar__link" href="#mixin-link-color">link-color
+            
+            
+            </a>
+          </li>
+
+        
+
+          
+          <li class="sidebar__item  js-sassdoc__item" data-name="positions" data-type="mixin">
+            <a class="sidebar__link" href="#mixin-positions">positions
+            
+            
+            </a>
+          </li>
+
+        
+
+          
+          <li class="sidebar__item  js-sassdoc__item" data-name="striplist" data-type="mixin">
+            <a class="sidebar__link" href="#mixin-striplist">striplist
+            
+            
+            </a>
+          </li>
+
+        
+
+      
+
+    
+
+      
+      
+
+      
+      
+
+        <li class="sidebar__sub-heading"><a class="sidebar__link" href="#function">Functions</a></li>
+
+        
+        
+
+          
+          <li class="sidebar__item  js-sassdoc__item" data-name="em" data-type="function">
+            <a class="sidebar__link" href="#function-em">em
+            
+            
+            </a>
+          </li>
+
+        
+
+      
+
+    
+
+  
+  </ul>
+</div>
+
+
+  </aside>
+
+  
+  <article class="main" role="main">
+
+    
+    <header class="header" role="banner">
+  <div class="container">
+  
+
+    <div class="sassdoc__searchbar  searchbar">
+       <label for="js-search-input" class="visually-hidden">Search</label>
+       <div class="searchbar__form" id="js-search">
+         <input name="search" type="search" class="searchbar__field" autocomplete="off" autofocus id="js-search-input" placeholder="Search" />
+         <ul class="searchbar__suggestions" id="js-search-suggestions"></ul>
+       </div>
+     </div>
+  </div>
+</header>
+
+    <div class="container">
+    
+
+  
+  
+
+    
+    
+
+      
+      
+
+      
+      
+        <section class="main__section">
+          <h1 class="main__heading" id="mixin">Mixins</h1>
+
+          
+          
+
+            
+            
+            
+            <section class="main__item  item" id="mixin-center-div">
+              <h3 class="item__heading">
+  
+
+  <a class="item__name" href="#mixin-center-div">center-div</a>
+
+  
+
+  
+
+  
+</h3>
+
+
+
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+<pre class="item__code  language-scss"><code>@mixin center-div($width: 900px, $padding: 20px) { ... }</code></pre>
+
+
+
+  
+  <h3 class="item__sub-heading">Description</h3>
+  
+  <div class="item__description"><p>Creates a centered container using css calc property. Useful for using a full-width background with centered content. This does not work with old browers.</p></div>
+
+
+  <h3 class="item__sub-heading">Parameters</h3>
+
+
+
+  <table class="item__parameters">
+    <thead>
+      <tr>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Name</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Description</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Type</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Default value</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$width</code></th>
+          <td data-label="desc"><p>maximum width of container</p></td>
+          <td data-label="type">
+          
+            Number
+          
+          </td>
+          <td data-label="default">
+          
+            <code>900px</code>
+          
+          </td>
+        </tr>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$padding</code></th>
+          <td data-label="desc"><p>container padding if smaller than maximum width</p></td>
+          <td data-label="type">
+          
+            Number
+          
+          </td>
+          <td data-label="default">
+          
+            <code>20px</code>
+          
+          </td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  	
+
+  
+
+  
+  <h3 class="item__sub-heading">Author</h3>
+
+  <ul class="list-unstyled">
+    
+      <li><p>Gabe Martin</p></li>
+    
+  </ul>
+
+
+  
+  <h3 class="item__sub-heading">Found at</h3>
+
+  <p><code>_mixins/assets/sass/parts/_mixins/_center-div.scss</code></p>
+
+
+
+
+            </section>
+
+          
+
+            
+            
+            
+            <section class="main__item  item" id="mixin-clearfix">
+              <h3 class="item__heading">
+  
+
+  <a class="item__name" href="#mixin-clearfix">clearfix</a>
+
+  
+
+  
+
+  
+</h3>
+
+
+
+
+
+<pre class="item__code  language-scss"><code>@mixin clearfix() { ... }</code></pre>
+
+
+
+  
+  <h3 class="item__sub-heading">Description</h3>
+  
+  <div class="item__description"><p>Clearfix for legacy browsers.</p></div>
+
+
+  <h3 class="item__sub-heading">Parameters</h3>
+
+
+
+  <p>None.</p>
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  	
+
+  
+
+  
+  <h3 class="item__sub-heading">Author</h3>
+
+  <ul class="list-unstyled">
+    
+      <li><p>Gabe Martin</p></li>
+    
+  </ul>
+
+
+  
+  <h3 class="item__sub-heading">Found at</h3>
+
+  <p><code>_mixins/assets/sass/parts/_mixins/_clearfix.scss</code></p>
+
+
+
+
+            </section>
+
+          
+
+            
+            
+            
+            <section class="main__item  item" id="mixin-hide-text">
+              <h3 class="item__heading">
+  
+
+  <a class="item__name" href="#mixin-hide-text">hide-text</a>
+
+  
+
+  
+
+  
+</h3>
+
+
+
+
+
+<pre class="item__code  language-scss"><code>@mixin hide-text() { ... }</code></pre>
+
+
+
+  
+  <h3 class="item__sub-heading">Description</h3>
+  
+  <div class="item__description"><p>Hides text to make way for background image.</p></div>
+
+
+  <h3 class="item__sub-heading">Parameters</h3>
+
+
+
+  <p>None.</p>
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  	
+
+  
+
+  
+  <h3 class="item__sub-heading">Author</h3>
+
+  <ul class="list-unstyled">
+    
+      <li><p>Gabe Martin</p></li>
+    
+  </ul>
+
+
+  
+  <h3 class="item__sub-heading">Found at</h3>
+
+  <p><code>_mixins/assets/sass/parts/_mixins/_hide-text.scss</code></p>
+
+
+
+
+            </section>
+
+          
+
+            
+            
+            
+            <section class="main__item  item" id="mixin-image-2x">
+              <h3 class="item__heading">
+  
+
+  <a class="item__name" href="#mixin-image-2x">image-2x</a>
+
+  
+
+  
+
+  
+</h3>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+<pre class="item__code  language-scss"><code>@mixin image-2x($image, $width, $height) { ... }</code></pre>
+
+
+
+  
+  <h3 class="item__sub-heading">Description</h3>
+  
+  <div class="item__description"><p>Retina background-image. Use after setting standard resolution image.</p></div>
+
+
+  <h3 class="item__sub-heading">Parameters</h3>
+
+
+
+  <table class="item__parameters">
+    <thead>
+      <tr>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Name</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Description</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Type</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Default value</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$image</code></th>
+          <td data-label="desc"><p>location of retina (@2x) image</p></td>
+          <td data-label="type">
+          
+            Image source
+          
+          </td>
+          <td data-label="default">
+          
+            &mdash;<span class="visually-hidden"> none</span>
+          
+          </td>
+        </tr>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$width</code></th>
+          <td data-label="desc"><p>@1x image size</p></td>
+          <td data-label="type">
+          
+            Number
+          
+          </td>
+          <td data-label="default">
+          
+            &mdash;<span class="visually-hidden"> none</span>
+          
+          </td>
+        </tr>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$height</code></th>
+          <td data-label="desc"><p>@2x image size</p></td>
+          <td data-label="type">
+          
+            Number
+          
+          </td>
+          <td data-label="default">
+          
+            &mdash;<span class="visually-hidden"> none</span>
+          
+          </td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  	
+
+  
+
+  
+  <h3 class="item__sub-heading">Author</h3>
+
+  <ul class="list-unstyled">
+    
+      <li><p>Gabe Martin</p></li>
+    
+  </ul>
+
+
+  
+  <h3 class="item__sub-heading">Found at</h3>
+
+  <p><code>_mixins/assets/sass/parts/_mixins/_image-2x.scss</code></p>
+
+
+
+
+            </section>
+
+          
+
+            
+            
+            
+            <section class="main__item  item" id="mixin-justifygrid">
+              <h3 class="item__heading">
+  
+
+  <a class="item__name" href="#mixin-justifygrid">justifygrid</a>
+
+  
+
+  
+
+  
+</h3>
+
+
+
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+<pre class="item__code  language-scss"><code>@mixin justifygrid($cols: 2, $parent_width_adjust: 98.9%, $child_width_adjust: 49%) { ... }</code></pre>
+
+
+
+  
+  <h3 class="item__sub-heading">Description</h3>
+  
+  <div class="item__description"><p>Applied to a parent tag, this will create a grid of equally spaced child elements. All items should be the same height. Best for image thumbnails.</p></div>
+
+
+  <h3 class="item__sub-heading">Parameters</h3>
+
+
+
+  <table class="item__parameters">
+    <thead>
+      <tr>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Name</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Description</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Type</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Default value</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$cols</code></th>
+          <td data-label="desc"><p>desired number of columns</p></td>
+          <td data-label="type">
+          
+            Number
+          
+          </td>
+          <td data-label="default">
+          
+            <code>2</code>
+          
+          </td>
+        </tr>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$parent_width_adjust</code></th>
+          <td data-label="desc"><p>adjust the parent container</p></td>
+          <td data-label="type">
+          
+            Percentage
+          
+          </td>
+          <td data-label="default">
+          
+            <code>98.9%</code>
+          
+          </td>
+        </tr>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$child_width_adjust</code></th>
+          <td data-label="desc"><p>adjust the child containers</p></td>
+          <td data-label="type">
+          
+            Percentage
+          
+          </td>
+          <td data-label="default">
+          
+            <code>49%</code>
+          
+          </td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  	
+
+  
+
+  
+  <h3 class="item__sub-heading">Author</h3>
+
+  <ul class="list-unstyled">
+    
+      <li><p>Gabe Martin</p></li>
+    
+  </ul>
+
+
+  
+  <h3 class="item__sub-heading">Found at</h3>
+
+  <p><code>_mixins/assets/sass/parts/_mixins/_justifygrid.scss</code></p>
+
+
+
+
+            </section>
+
+          
+
+            
+            
+            
+            <section class="main__item  item" id="mixin-link-color">
+              <h3 class="item__heading">
+  
+
+  <a class="item__name" href="#mixin-link-color">link-color</a>
+
+  
+
+  
+
+  
+</h3>
+
+
+
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+<pre class="item__code  language-scss"><code>@mixin link-color($default: blue, $hover: red, $visite: purple) { ... }</code></pre>
+
+
+
+  
+  <h3 class="item__sub-heading">Description</h3>
+  
+  <div class="item__description"><p>Sets the default, :hover, and :visited link colors.</p></div>
+
+
+  <h3 class="item__sub-heading">Parameters</h3>
+
+
+
+  <table class="item__parameters">
+    <thead>
+      <tr>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Name</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Description</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Type</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Default value</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$default</code></th>
+          <td data-label="desc"><p>default link color</p></td>
+          <td data-label="type">
+          
+            Color value
+          
+          </td>
+          <td data-label="default">
+          
+            <code>blue</code>
+          
+          </td>
+        </tr>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$hover</code></th>
+          <td data-label="desc"><p>hover color</p></td>
+          <td data-label="type">
+          
+            Color value
+          
+          </td>
+          <td data-label="default">
+          
+            <code>red</code>
+          
+          </td>
+        </tr>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$visite</code></th>
+          <td data-label="desc"><p>visited color</p></td>
+          <td data-label="type">
+          
+            Color value
+          
+          </td>
+          <td data-label="default">
+          
+            <code>purple</code>
+          
+          </td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  	
+
+  
+
+  
+  <h3 class="item__sub-heading">Author</h3>
+
+  <ul class="list-unstyled">
+    
+      <li><p>Gabe Martin</p></li>
+    
+  </ul>
+
+
+  
+  <h3 class="item__sub-heading">Found at</h3>
+
+  <p><code>_mixins/assets/sass/parts/_mixins/_link-color.scss</code></p>
+
+
+
+
+            </section>
+
+          
+
+            
+            
+            
+            <section class="main__item  item" id="mixin-positions">
+              <h3 class="item__heading">
+  
+
+  <a class="item__name" href="#mixin-positions">positions</a>
+
+  
+
+  
+
+  
+</h3>
+
+
+
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+<pre class="item__code  language-scss"><code>@mixin positions($top: 0, $right: 0, $bottom: 0, $left: 0) { ... }</code></pre>
+
+
+
+  
+  <h3 class="item__sub-heading">Description</h3>
+  
+  <div class="item__description"><p>Shorthand for setting the position for absolute and fixed elements.</p></div>
+
+
+  <h3 class="item__sub-heading">Parameters</h3>
+
+
+
+  <table class="item__parameters">
+    <thead>
+      <tr>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Name</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Description</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Type</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Default value</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$top</code></th>
+          <td data-label="desc"><p>top position</p></td>
+          <td data-label="type">
+          
+            Number
+          
+          </td>
+          <td data-label="default">
+          
+            <code>0</code>
+          
+          </td>
+        </tr>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$right</code></th>
+          <td data-label="desc"><p>right position</p></td>
+          <td data-label="type">
+          
+            Number
+          
+          </td>
+          <td data-label="default">
+          
+            <code>0</code>
+          
+          </td>
+        </tr>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$bottom</code></th>
+          <td data-label="desc"><p>bottom position</p></td>
+          <td data-label="type">
+          
+            Number
+          
+          </td>
+          <td data-label="default">
+          
+            <code>0</code>
+          
+          </td>
+        </tr>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$left</code></th>
+          <td data-label="desc"><p>left position</p></td>
+          <td data-label="type">
+          
+            Number
+          
+          </td>
+          <td data-label="default">
+          
+            <code>0</code>
+          
+          </td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  	
+
+  
+
+  
+  <h3 class="item__sub-heading">Author</h3>
+
+  <ul class="list-unstyled">
+    
+      <li><p>Gabe Martin</p></li>
+    
+  </ul>
+
+
+  
+  <h3 class="item__sub-heading">Found at</h3>
+
+  <p><code>_mixins/assets/sass/parts/_mixins/_positions.scss</code></p>
+
+
+
+
+            </section>
+
+          
+
+            
+            
+            
+            <section class="main__item  item" id="mixin-striplist">
+              <h3 class="item__heading">
+  
+
+  <a class="item__name" href="#mixin-striplist">striplist</a>
+
+  
+
+  
+
+  
+</h3>
+
+
+
+
+
+<pre class="item__code  language-scss"><code>@mixin striplist() { ... }</code></pre>
+
+
+
+  
+  <h3 class="item__sub-heading">Description</h3>
+  
+  <div class="item__description"><p>Removes bullets and padding from lists.</p></div>
+
+
+  <h3 class="item__sub-heading">Parameters</h3>
+
+
+
+  <p>None.</p>
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  	
+
+  
+
+  
+  <h3 class="item__sub-heading">Author</h3>
+
+  <ul class="list-unstyled">
+    
+      <li><p>Gabe Martin</p></li>
+    
+  </ul>
+
+
+  
+  <h3 class="item__sub-heading">Found at</h3>
+
+  <p><code>_mixins/assets/sass/parts/_mixins/_striplist.scss</code></p>
+
+
+
+
+            </section>
+
+          
+        </section>
+
+      
+
+    
+
+      
+      
+
+      
+      
+        <section class="main__section">
+          <h1 class="main__heading" id="function">Functions</h1>
+
+          
+          
+
+            
+            
+            
+            <section class="main__item  item" id="function-em">
+              <h3 class="item__heading">
+  
+
+  <a class="item__name" href="#function-em">em</a>
+
+  
+
+  
+
+  
+</h3>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+<pre class="item__code  language-scss"><code>@function em($target-px, $context: 16px) { ... }</code></pre>
+
+
+
+  
+  <h3 class="item__sub-heading">Description</h3>
+  
+  <div class="item__description"><p>Creates EM value based on pixel/context input.</p></div>
+
+
+  <h3 class="item__sub-heading">Parameters</h3>
+
+
+
+  <table class="item__parameters">
+    <thead>
+      <tr>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Name</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Description</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Type</th>
+        <th scope="col"><span class="visually-hidden"> parameter </span>Default value</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$target-px</code></th>
+          <td data-label="desc"><p>desired pixel value</p></td>
+          <td data-label="type">
+          
+            Number
+          
+          </td>
+          <td data-label="default">
+          
+            &mdash;<span class="visually-hidden"> none</span>
+          
+          </td>
+        </tr>
+      
+        <tr class="item__parameter">
+          <th scope="row" data-label="name"><code>$context</code></th>
+          <td data-label="desc"><p>base font size</p></td>
+          <td data-label="type">
+          
+            Number
+          
+          </td>
+          <td data-label="default">
+          
+            <code>16px</code>
+          
+          </td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  	
+
+  
+
+  
+  <h3 class="item__sub-heading">Author</h3>
+
+  <ul class="list-unstyled">
+    
+      <li><p>Gabe Martin</p></li>
+    
+  </ul>
+
+
+  
+  <h3 class="item__sub-heading">Found at</h3>
+
+  <p><code>_mixins/assets/sass/parts/_mixins/_em.scss</code></p>
+
+
+
+
+            </section>
+
+          
+        </section>
+
+      
+
+    
+
+  
+
+
+    </div>
+
+    
+    
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      
+        <div class="footer__project-info  project-info">
+          <!-- Name and URL -->
+          
+            <span class="project-info__name">SassDoc</span>
+          
+
+          <!-- Version -->
+          <span class="project-info__version"> - v0.1.0</span>
+
+          <!-- License -->
+          
+        </div>
+      
+
+      
+        <span class="footer__watermark">Built with <a href="https://github.com/SassDoc/sassdoc">SassDoc</a>.</span>
+      
+    </div>
+  </footer>
+
+
+  </article>
+
+
+  
+  <script src="assets/js/prism.min.js"></script>
+<script src="assets/js/fuse.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+/**
+ * Creates EM value based on pixel/context input.
+ *
+ * @author Gabe Martin
+ *
+ * @param {Number} $target-px - desired pixel value
+ * @param {Number} $context (16px) - base font size
+ *
+ */
+@function em($target-px, $context: 16px) {
+  @return $target-px / $context * 1em;
+}

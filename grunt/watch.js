@@ -31,4 +31,12 @@ module.exports = {
             livereload: true,
         }
     },
+    sassdocs: {
+        files: ['assets/sass/parts/_mixins/*'],
+        tasks: ['sassdoc'],
+        options: {
+            spawn: false,
+            livereload: true,
+        }
+    },
 };
