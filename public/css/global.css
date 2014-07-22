@@ -552,14 +552,104 @@ table {
   border-spacing: 0;
 }
 
+/**
+ * Creates a centered container using css calc property. Useful for using a full-width background with centered content. This does not work with old browers.
+ *
+ * @author Gabe Martin
+ *
+ * @param {Number} $width (900px) - maximum width of container
+ * @param {Number} $padding (20px) - container padding if smaller than maximum width
+ *
+ */
+
+/**
+ * Clearfix for legacy browsers.
+ *
+ * @author Gabe Martin
+ *
+ */
+
+/**
+ * Creates EM value based on pixel/context input.
+ *
+ * @author Gabe Martin
+ *
+ * @param {Number} $target-px - desired pixel value
+ * @param {Number} $context (16px) - base font size
+ *
+ */
+
+/**
+ * Hides text to make way for background image.
+ *
+ * @author Gabe Martin
+ *
+ */
+
+/**
+ * Retina background-image. Use after setting standard resolution image.
+ *
+ * @author Gabe Martin
+ *
+ * @requires is-true
+ *
+ * @param {Image Source} $image - location of retina (@2x) image
+ * @param {Number} $width - @1x image size
+ * @param {Number} $height - @2x image size
+ *
+ */
+
+/**
+ * Applied to a parent tag, this will create a grid of equally spaced child elements. All items should be the same height. Best for image thumbnails.
+ *
+ * @author Gabe Martin
+ *
+ * @requires is-true
+ *
+ * @param {Number} $cols (2) - desired number of columns
+ * @param {Percentage} $parent_width_adjust (98.9%) - adjust the parent container
+ * @param {Percentage} $child_width_adjust (49%) - adjust the child containers
+ *
+ */
+
+/**
+ * Sets the default, :hover, and :visited link colors.
+ *
+ * @author Gabe Martin
+ *
+ * @param {Color Value} $default (blue) - default link color
+ * @param {Color Value} $hover (red) - hover color
+ * @param {Color Value} $visite (purple) - visited color
+ *
+ */
+
+/**
+ * Shorthand for setting the position for absolute and fixed elements.
+ *
+ * @author Gabe Martin
+ *
+ * @param {Number} $top (0) - top position
+ * @param {Number} $right (0) - right position
+ * @param {Number} $bottom (0) - bottom position
+ * @param {Number} $left (0) - left position
+ *
+ */
+
+/**
+ * Removes bullets and padding from lists.
+ *
+ * @author Gabe Martin
+ *
+ */
+
 header,
 nav,
 section,
 footer {
-  padding-left: -webkit-calc(50% - 880px/2);
-  padding-left: calc(50% - 880px/2);
-  padding-right: -webkit-calc(50% - 880px/2);
-  padding-right: calc(50% - 880px/2);
+  padding-left: -webkit-calc(50% - $width/2);
+  padding-left: calc(50% - $width/2);
+  padding-right: -webkit-calc(50% - $width/2);
+  padding-right: calc(50% - $width/2);
 }
 
 @media screen and (max-width: 880px) {

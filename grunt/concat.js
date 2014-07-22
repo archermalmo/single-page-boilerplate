@@ -11,6 +11,6 @@ module.exports = {
         src: [
             'assets/sass/parts/_mixins/*.{sass,scss}'
         ],
-        dest: 'assets/sass/parts/_mixins.sass'
+        dest: 'assets/sass/parts/_mixins.scss'
     }
 };
